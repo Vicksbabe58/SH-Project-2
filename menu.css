@@ -15,9 +15,11 @@ body {
 }
 h1 {
   text-align: center;
-  padding: 10px 0 15px;
+  padding: 2px 0 5px;
   color: blueviolet;
   font-size: 50px;
+  position: relative;
+  top: -10px;
 }
 h2 {
   text-align: left;
@@ -39,6 +41,8 @@ li {
   margin: 10px 0 40px;
   padding: 5px 0 20px;
   transition: all 200ms ease-in-out;
+  position: relative;
+  top: -50px;
 }
 li:hover {
   cursor: pointer;
@@ -47,11 +51,12 @@ li:hover {
 }
 i {
   color: brown;
+  position: relative;
 }
 img {
   object-fit: cover;
-  width: 224px;
-  height: 190px;
+  width: 215px;
+  height: 150px;
   border-radius: 20px;
 }
 p {
@@ -82,24 +87,32 @@ footer {
   margin-bottom: 20px;
   margin-top: 10px;
   font-size: 12px;
+  position: fixed;
+  bottom: -10px;
 }
 .container {
-  display: flex;
-  width: 80%;
+  width: 50%;
+  height: 33rem;
 }
 .sidebar {
   background-color: black;
   display: block;
-  margin: 10px 15px 10px;
+  margin: 10px 15px 5px;
   width: 5%;
-  height: 35rem;
+  height: 31rem;
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(146, 31, 31, 0.8);
+  position: fixed;
+  top: -3px;
 }
+
 .menu {
   margin: 2px 15px 5px 0;
   width: 50%;
+  position: fixed;
+  top: -10px;
+  left: 80px;
 }
 .menu:hover {
   cursor: pointer;
@@ -122,4 +135,6 @@ footer {
 }
 .next {
   text-decoration: none;
+  position: fixed;
+  bottom: -20px;
 }
