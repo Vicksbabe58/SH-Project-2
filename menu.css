@@ -12,6 +12,8 @@ body {
     rgb(202, 248, 208) 90.9%
   );
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  height: 100vh;
+  max-width: 100%;
 }
 h1 {
   text-align: center;
@@ -66,9 +68,8 @@ p {
 }
 button {
   text-align: center;
-  justify-content: center;
   display: block;
-  margin: 15px 30rem 35px;
+  margin: 20px 250% 35px;
   border: 1px solid blueviolet;
   border-radius: 20px;
   padding: 15px 50px;
@@ -77,6 +78,7 @@ button {
   color: blueviolet;
   transition: all 200ms ease-in-out;
   box-shadow: 5px 5px 10px rgba(146, 31, 31, 0.8);
+  width: 100%;
 }
 button:hover {
   background-color: #f2d2bd;
